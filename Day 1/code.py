@@ -182,4 +182,4 @@ print(sum)
 a = int(input("Enter the 1 number : "))
 b = int(input("Enter the 2 number : "))
 Average = a*b/2
-print(Average)
+print("The Average of 2 numbers is ",Average)
