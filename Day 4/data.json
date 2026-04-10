@@ -1,0 +1,8 @@
+{
+    "name":"Kshitij",
+    "isTeacher":true,
+    "last_name":"Patil",
+    "address":{
+        "city":"Maharashtra"
+    }
+}

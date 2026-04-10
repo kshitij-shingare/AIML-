@@ -1,11 +1,4 @@
-# IF you want to run the assignment Codes You Can Use this.
-
-color = input("Enter color 1)red 2)yellow 3)Green")
-
-match color:
-    case "green":
-        print("Go")
-    case "red":
-        print("stop bhaiya")
-    case "yellow":
-       print("stop")  
+val1 = int(input("enter the first value"))
+val2 = int(input("enter the first value"))
+sum = val1+val2
+print(sum)
