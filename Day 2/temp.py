@@ -1,11 +1,10 @@
-# IF you want to run the assignment Codes You Can Use this.
+user = "admin"
+password ="raj"
 
-def f (a):
-    fact =1
-    for i in range(1,a+1):
-        fact *=i
-    print(fact)
-a = int(input("enter the n value"))
-f(a)
-        
- 
+use=input("enter the username")
+pas=input("enter the password")
+
+if(use==user and pas==password):
+    print("login successful")
+else:
+    print("login failed check username and password")
