@@ -14,7 +14,7 @@
 # the most basic operation we do is read "r"
 
 f = open("data.txt","r")
-data = f.read() #use to read the file line by line means pointer by pointer
+data = f.readline() #use to read the file line by line means pointer by pointer
 print(type(data))
 print(data)
 f.close()
@@ -23,4 +23,5 @@ f.close()
 
 # data = f.readline()  use to read the line
 
-
+# with keyword 
+# when we open and 
